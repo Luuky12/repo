@@ -5,7 +5,7 @@ import streamlit as st
 import numpy as np 
 
 st.header('Klasifikasi Gambar Kucing Dan Anjing')
-model = load_model('Image_classify.keras')
+model = load_model('cats_and_dogs_filtered/Image_classify.keras')
 
 data_cat = ['Anjing', 'Kucing']
 
