@@ -12,7 +12,7 @@ data_cat = ['Anjing', 'Kucing']
 img_height = 100
 img_width = 100
 
-image =st.text_input('Masukan Nama gambar','cat.jpg')
+image =st.text_input('Masukan Nama gambar','cats_and_dogs_filtered/cat.jpg')
 
 image_load = tf.keras.utils.load_img(image, target_size=(img_height,img_width))
 img_arr = tf.keras.utils.array_to_img(image_load)
